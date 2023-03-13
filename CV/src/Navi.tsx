@@ -4,10 +4,10 @@ import "./Navi.css"
 
 function Navi() {
   return (
-    <Navbar variant ="navi">
+    <Navbar variant ="navi" expand="lg">
         <Navbar.Brand href="#home" >Illán Martínez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse  id="basic-navbar-nav">
+        <Navbar.Collapse  id="basic-navbar-nav" className="me-auto">
           <Nav variant="navi" className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
             <Nav.Link href="#proyectos">Proyectos</Nav.Link>
