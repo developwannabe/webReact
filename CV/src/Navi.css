@@ -1,0 +1,42 @@
+.navbar-navi{
+    background: rgba(68,116,157,0.8);
+    width: 100%;
+    padding:10px;
+}
+
+.navbar-brand{
+    padding: 5px;
+    background: rgba(68,116,157,0);
+    font-weight: bold;
+}
+
+.navbar-collapse.collapse{
+    background: rgba(68,116,157,0);
+    width: fit-content;
+    justify-content: end;
+}
+
+.nav-navi{
+    background: rgba(68,116,157,0);
+    display: flex;
+    gap:20%;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-link{
+    background: rgba(68,116,157,0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+}
+
+.nav-link.active{
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+}

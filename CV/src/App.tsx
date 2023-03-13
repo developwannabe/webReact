@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import { Navbar } from './Navbar'
+import React from "react";
+import './App.css';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import Navi  from './Navi';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
-    <div>
-      <Navbar />
-    </div>
+    <React.Fragment>
+      <Navi />
+    </React.Fragment>
   )
 }
 
