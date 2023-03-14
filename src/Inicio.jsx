@@ -1,12 +1,8 @@
-import * as React from 'react';
 import './App.css';
-import Navi from './Navi.jsx';
-import Footer from './Footer.jsx';
 
 export default function Inicio() {
   return (
-    <div class="flex flex-col h-screen justify-between bg">
-      <Navi />
+    <>
       <div class="hero min-h-fit-content bg-base-200">
         <div class="hero-content text-center">
           <div class="max-w-md">
@@ -16,7 +12,6 @@ export default function Inicio() {
           </div>
         </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
