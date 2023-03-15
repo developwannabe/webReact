@@ -15,12 +15,13 @@ function Navi() {
             Proyectos
             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
           </a>
-          <ul class="p-2">
+          <ul class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-32">
             <li><Link to="/universidad">Universidad</Link></li>
             <li><Link to="/personal">Personales</Link></li>
           </ul>
         </li>
         <li><Link to ="/cv">CV</Link></li>
+        <li><Link to ="/contacto">Contacto</Link></li>
       </ul>
     </div>
     <Link to ="/" class="px-10 normal-case text-xl">Illán Martínez</Link>
@@ -39,10 +40,10 @@ function Navi() {
         </ul>
       </li>
       <li><Link to ="/cv">CV</Link></li>
+      <li><Link to ="/contacto">Contacto</Link></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <Link to ="/contacto" class="btn">Contacto</Link>
   </div>
 </header>
   );
