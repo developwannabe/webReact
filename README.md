@@ -1,5 +1,5 @@
-# webReact
-Mi curriculum con React
+# CV en React
+Mi carta de presentación con React
 
 Gracias a Netlify, este repositorio está configurado para un despligue continuo:
 
